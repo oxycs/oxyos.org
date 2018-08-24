@@ -6,3 +6,4 @@ import './index.css';
 class navBar extends React.Component {
   console.log("Started successfully!");
 }
+*/
