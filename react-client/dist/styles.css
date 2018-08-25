@@ -8,12 +8,17 @@ header {
 
 #headerButtons {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 15px;
+}
+
+#bannerImage {
+  width: 100%;
+  height: auto;
 }
 
 .navButton {
   float: right;
+  padding: 2%;
 }
 
 footer {
