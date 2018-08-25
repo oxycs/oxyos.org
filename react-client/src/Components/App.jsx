@@ -4,6 +4,9 @@ import { browserHistory } from 'react-router';
 import HomePage from './HomePage';
 import NavBar from './HeaderComponent/NavBar';
 
+
+// component will be changed depending on which navBar button is clicked?
+// Or route to different page
 class App extends Component {
   render() {
     return (

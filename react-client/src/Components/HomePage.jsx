@@ -5,7 +5,6 @@ class HomePage extends Component {
   render() {
     return (
       <div>
-        Home page
         <img id="bannerImage" src={banner}></img>
       </div>
     )
