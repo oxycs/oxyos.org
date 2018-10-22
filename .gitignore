@@ -8,3 +8,7 @@ bundle.js
 
 # Dependency directories
 node_modules/
+
+# DS_Store = binary info for files for MacOS
+.DS_Store
+./react-client/src/.DS_Store
