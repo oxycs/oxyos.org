@@ -51,5 +51,5 @@ Run each of these commands in **separate** terminal windows:
 
 
 
-Adapted from [this Medium post] (https://medium.com/@Preda/getting-started-on-building-a-personal-website-with-react-b44ee93b1710)
+Adapted from [this Medium post](https://medium.com/@Preda/getting-started-on-building-a-personal-website-with-react-b44ee93b1710)
 
