@@ -49,6 +49,8 @@ Run each of these commands in **separate** terminal windows:
 
 `npm run server-dev`
 
+Then visit `http://localhost:8080/` in your browser. Hopefully this worked! If not, Google and other project members are your friends.
+
 
 
 Adapted from [this Medium post](https://medium.com/@Preda/getting-started-on-building-a-personal-website-with-react-b44ee93b1710)
