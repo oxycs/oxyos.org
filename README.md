@@ -11,35 +11,9 @@
 
 `sudo npm install -g nodemon`
 
-4. Import the expressjs library with the following terminal command:
+4. All of the other dependencies are listed in `package.json`. All you need to do is, after cloning the repo to your machine, navigate to the project root and run:
 
-`npm install express --save` 
-
-`npm install body-parser --save`
-
-5. Install React components:
-
-`npm install react --save`
-
-`npm install react-dom --save`
-
-`npm install react-router-dom --save`
-
-`npm install react-router --save`
-
-6. Install webpack:
-
-`npm install webpack --save`
-
-7. Install Babel dependencies:
-
-`npm install babel-core --save`
-
-`npm install babel-loader --save`
-
-`npm install babel-preset-es2015 --save`
-
-`npm install babel-preset-react --save`
+`npm install`
 
 
 #### Run locally
