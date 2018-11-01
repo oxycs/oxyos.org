@@ -1,1 +1,3 @@
 Practice practice practice 
+
+This is Cyntha's first commit.
