@@ -29,3 +29,18 @@ Then visit `http://localhost:8080/` in your browser. Hopefully this worked! If n
 
 Adapted from [this Medium post](https://medium.com/@Preda/getting-started-on-building-a-personal-website-with-react-b44ee93b1710)
 
+
+
+## Git workflow
+#### Setup
+1. On Github, **fork** oxy-os/oxyos.org
+2. Either using GitKraken (highly recommended), any other git GUI, or the command line, **clone** the repo 
+3. In the Remote section of the left panel in GitKraken, click the "+" button and add oxy-os as a remote
+#### Making contributions
+1. Open the repo on your local machine, and checkout the `development` branch
+2. Make your changes, `commit`, and `push`!
+3. Go to your forked copy of the repo on Github, and open a pull request from your development branch to oxy-os/development
+#### Keeping your fork up to date with oxy-os
+1. In GitKraken, on the left panel, click and drag oxy-os/development on to Local/development
+2. Click "Merge oxy-os/development into development"
+3. Now you have all of the new changes that have been accepted into oxy-os/oxyos.org on your local development branch. To see those changes in your forked repo on Github, simply `push`
