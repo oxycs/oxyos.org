@@ -17,19 +17,19 @@ class NavBar extends Component {
           <ul id="headerButtons">
 
             <li className="navButton">
-              <Link to="">Events</Link>
+              <Link to="/events">Events</Link>
             </li>
 
             <li className="navButton">
-              <Link to="">Resources</Link>
+              <Link to="/resources">Resources</Link>
             </li>
 
             <li className="navButton">
-              <Link to="">About Us</Link>
+              <Link to="/about-us">About Us</Link>
             </li>
 
             <li className="navButton">
-              <Link to="">Contact</Link>
+              <Link to="/contact">Contact</Link>
             </li>
 
           </ul>
