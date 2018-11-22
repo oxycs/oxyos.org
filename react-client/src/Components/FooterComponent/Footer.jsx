@@ -17,7 +17,7 @@ class Footer extends Component {
             </li>
 
             <li className="navButton">
-              <Link to="">Facebook</Link>
+              <a href="https://www.facebook.com/oxyopensourceclub">Facebook</a>
             </li>
 
           </ul>
