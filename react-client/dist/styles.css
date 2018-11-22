@@ -11,6 +11,7 @@ body {
 }
 
 #headerButtons {
+  float: right;
   list-style-type: none;
   position: relative;
   margin: 15px;
@@ -31,7 +32,7 @@ body {
 }
 
 .navButton {
-  float: right;
+  float: left;
   padding: 2%;
 }
 
