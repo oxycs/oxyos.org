@@ -1,54 +1,191 @@
+/* ************** GENERAL ************** */
+
+html, body{
+  height: 100%;
+  background: white;
+}
+
 body {
   margin: 0px;
   font-family: proxima-nova, sans-serif;
-  font-style: normal;
-  font-weight: 100;
 }
+
+/* ************** HOME PAGE ************** */
+.home{
+    background-image: url("https://www.oxy.edu/sites/default/files/styles/slideshow_1140x641/public/042616_MapsDirections.jpg?itok=qskSzBUY");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#homeBody{
+  padding: 3em 5em 3em 5em;
+}
+
+#homeText{
+  text-align: justify;
+  font-size: 18px;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 2em;
+}
+
+#homeTitle{
+  float: right;
+  text-transform: uppercase;
+  font-weight: bold;
+  max-width: 40%;
+}
+
+#homeTitle h1{
+  margin: 0;
+  font-size: 100px;
+/*  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;*/
+}
+
+#homeTitle h1 span{
+  color: #f26739;
+}
+
+@media screen and (max-width: 768px) {
+    #app{
+      padding-bottom: 0;
+      height: initial;
+    }
+    #homeBody{
+      padding: 1em;
+    }
+    #homeTitle{
+      float: none;
+    }
+    #homeText{
+      padding: 1em;
+      max-width: 90%;
+    }
+}
+
+/* ************** HEADER ************** */
 
 .header {
   display: block;
-  background-color: gray;
-  width: 100%;
-  height: 50px;
-  color: white;
+  overflow: hidden;
+  font-family: Obvia;
+  background: linear-gradient(white 60%, rgba(255,255,255, 0));
+  /*background: white;*/
+  padding-bottom: 1em;
 }
 
-#headerButtons {
-  float: right;
+#headerButtons { 
   list-style-type: none;
+  float: right;
   position: relative;
-  margin: 15px;
+  width: 50%;
+  padding-inline-start: 0;
+  padding-top: 1em;
+  text-transform: uppercase;
+  opacity: 1;
 }
 
 #logoImage {
-  padding-left: 5px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  height: 40px;
-  width: 40px;
+  padding: 1.5em;
+  padding-left: 2.5em;
+  height: 4em;
+  width: 4em;
 }
 
-#bannerImage {
-  width: 100%;
-  height: auto;
-  padding-top: 15px;
+#logoLink a:hover{
+  border: none;
+}
+
+.header .navButton {
+  float: right;
 }
 
 .navButton {
-  float: left;
   padding: 2%;
+  margin-right: 1.5em;
+  font-size: 18px;
 }
 
-#footerButtons {
-  text-align: center;
-  list-style-type: none;
-}
-
+/* ************** FOOTER ************** */
 footer {
   display: block;
-  width: 100%;
-  height: 50px;
-  background-color: gray;
+  height: auto;
+  background-color: #2d2e2e;
   color: white;
   text-align: center;
+  overflow: hidden;
+  padding: 1em;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-height: 120px;
+}
+
+footer a{
+  color: white;
+}
+
+#social{
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 1em;
+  text-align: left;
+  float: left;
+  font-family: Obvia;
+}
+
+#social h1{
+    font-weight: normal;
+    margin: 0;
+}
+
+#social h1 span{
+    color: #f26739;
+}
+
+#social h3{
+    font-weight: lighter;
+    text-transform: uppercase;
+    opacity: 0.6;
+    margin-top: 0.25em;
+}
+
+#social a{
+  padding: 0 1em 0 0;
+  opacity: 0.3;
+}
+
+#social a:hover{
+  opacity: 1;
+  border: none;
+}
+
+#social img{
+  height: 2em;
+  width: 2em;
+}
+
+#contact {
+  float: right;
+  text-align: right;
+  line-height: 0.5em;
+  font-weight: bold;
+  padding-right: 1em;
+  padding-top: 0;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    footer{
+      font-size: 12px;
+      position: relative;
+    }
+    #contact{
+      font-size: 12px;
+      padding-top: 0.5em;
+    }
 }
