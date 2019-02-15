@@ -8,12 +8,14 @@ html, body{
 body {
   margin: 0px;
   font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  font-weight: 100;
 }
 
 /* ************** HOME PAGE ************** */
 .home{
-    background-image: url("https://www.oxy.edu/sites/default/files/styles/slideshow_1140x641/public/042616_MapsDirections.jpg?itok=qskSzBUY");
-    height: 100%; 
+    background-image: url('../../src/Assets/2018-0608_JacarandaTrees-07.jpg');
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -71,13 +73,15 @@ body {
 .header {
   display: block;
   overflow: hidden;
-  font-family: Obvia;
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  font-weight: 100;
   background: linear-gradient(white 60%, rgba(255,255,255, 0));
   /*background: white;*/
   padding-bottom: 1em;
 }
 
-#headerButtons { 
+#headerButtons {
   list-style-type: none;
   float: right;
   position: relative;

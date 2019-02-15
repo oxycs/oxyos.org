@@ -8,7 +8,7 @@ class Footer extends Component {
         <div id="social">
           <h1>Open<span>Source</span></h1>
           <h3>Occidental College</h3>
-          <a href="https://www.facebook.com/oxyopensourceclub"><img src='../Assets/facebook.svg'></img></a>
+          <a href="https://www.facebook.com/oxyopensourceclub"><img src='../../Assets/facebook.svg'></img></a>
           <a href="https://www.instagram.com/oxyopensource/"><img src="../../Assets/instagram.svg"></img></a>
             <Link to=""><img src="../../Assets/slack.svg"></img></Link>
           <a href="https://github.com/oxy-os/oxyos.org"><img src="../../Assets/github.svg"></img></a>
