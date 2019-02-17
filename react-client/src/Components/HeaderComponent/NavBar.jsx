@@ -12,7 +12,6 @@ class NavBar extends Component {
             <img id="logoImage" src={logo}></img>
           </Link>
           </span>
-
           <ul id="headerButtons">
             <li className="navButton">
               <Link to="/contact">Contact</Link>
