@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 class ContactPage extends Component {
   render() {
     return (
-      <div>
-        <p>This is the contact page</p>
+      <div id="contact-page">
+        <p>Questions? Comments? Concerns? Send us an email at <a href="mailto:opensource@oxy.edu">opensource@oxy.edu</a>.</p>
       </div>
     )
   }

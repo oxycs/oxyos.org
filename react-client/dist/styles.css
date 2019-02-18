@@ -78,6 +78,11 @@ body {
   background-image: linear-gradient(rgb(255, 255, 255), rgb(249, 249, 250));
 }
 
+/* ************** CONTACT ************** */
+#contact-page {
+  text-align: center;
+}
+
 /* ************** HEADER ************** */
 
 .header {
