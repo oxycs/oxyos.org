@@ -68,6 +68,16 @@ body {
     }
 }
 
+/* ************** ABOUT US ************** */
+
+#about-us-content {
+  text-align: center;
+}
+
+#about-us-content div {
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(249, 249, 250));
+}
+
 /* ************** HEADER ************** */
 
 .header {
@@ -181,6 +191,9 @@ footer a{
   padding-right: 1em;
   padding-top: 0;
   font-size: 16px;
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  font-weight: 100;
 }
 
 @media screen and (max-width: 768px) {
