@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import Calendar from 'react_google_calendar'
+//import Calendar from 'react_google_calendar'
 
 class EventsPage extends Component {
   // Credit: https://github.com/crashspringfield/react-google-calendar
+  /*
   const calendar_configuration = {
       api_key: AIzaSyBrKrD2zCwme215QR0lh7TiCSg9ekkR5Is,
       calendars: [
@@ -30,6 +31,14 @@ class EventsPage extends Component {
             events={this.state.events}
             config={calendar_configuration} />
         </div>
+  }
+  */
+  render() {
+    return (
+      <div id="calendar">
+        <p>This is the events page</p>
+      </div>
+    )
   }
 }
 

@@ -3,19 +3,17 @@ import React, { Component } from 'react';
 class AboutUsPage extends Component {
   render() {
     return (
-      <div id="about-us-content">
-        <section>
+      <section>
+        <div id="about-us-content">
           <div id="mission">
-            <h3>What We Do</h3>
+            <p style={{ fontSize:34 }}>What We Do</p>
             <p>Our mission is to create an inclusive and collaborative community
                and to provide resources and opportunities for every student
                 interested in computer technology.</p>
           </div>
-        </section>
 
-        <section>
           <div id="whomst">
-            <h3>Who We Are</h3>
+            <p style={{ fontSize:34 }}>Who We Are</p>
             <ul>
               <li>Emily Tran, <i>President</i></li>
               <li>Stephanie Angulo, <i>Vice President</i></li>
@@ -28,8 +26,8 @@ class AboutUsPage extends Component {
               <li>deGrasse Schrader, <i>Social Media Coordinator</i></li>
             </ul>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
     )
   }
 }
