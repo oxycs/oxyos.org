@@ -1,7 +1,31 @@
 import React, { Component } from 'react';
 //import Calendar from 'react_google_calendar'
+import ApiCalendar from 'react-google-calendar-api';
 
 class EventsPage extends Component {
+  /**
+     * List all events in the calendar
+     * @param {number} maxResults to see
+     * @param {string} calendarId to see by default use the calendar attribute
+     * @returns {any} Promise with the result.
+     */
+  //public listUpcomingEvents(maxResults: number, calendarId: string = this.calendar): any
+
+  if (ApiCalendar.sign)
+    ApiCalendar.listUpcomingEvents(10)
+      .then(({result}: any) => {
+        console.log(result.items);
+      });
+
+  render() {
+    return (
+      <div id="calendar">
+        <p>This is the events page</p>
+      </div>
+    )
+  }
+
+
   // Credit: https://github.com/crashspringfield/react-google-calendar
   /*
   const calendar_configuration = {
@@ -31,8 +55,8 @@ class EventsPage extends Component {
             events={this.state.events}
             config={calendar_configuration} />
         </div>
-  }
-  */
+  } */
+  /*
   render() {
     return (
       <div id="calendar">
@@ -40,6 +64,7 @@ class EventsPage extends Component {
       </div>
     )
   }
+  */
 }
 
 export default EventsPage;

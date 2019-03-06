@@ -80,9 +80,9 @@ body {
   display: flex;
   /*display: grid;
   grid-template-columns: repeat(2, 1fr); */
-  gap: 24px;
-  padding-left: 24px;
-  padding-right: 24px;
+  gap: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 #container-resources div {
@@ -113,9 +113,9 @@ body {
   flex-direction: column;
   /*display: grid;
   grid-template-columns: repeat(1, 1fr); */
-  gap: 24px;
-  padding-left: 24px;
-  padding-right: 24px;
+  gap: 45px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 #about-us-content div {
