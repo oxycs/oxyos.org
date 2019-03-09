@@ -149,7 +149,7 @@ body {
   font-family: proxima-nova, sans-serif;
   font-style: normal;
   font-weight: 100;
-  background: linear-gradient(white 60%, rgba(255,255,255, 0));
+  background: linear-gradient(grey, 40%, rgba(255,255,255, 0));
   /*background: white;*/
   padding-bottom: 1em;
 }
@@ -185,6 +185,12 @@ body {
   margin-right: 1.5em;
   font-size: 18px;
 }
+
+.buttonLinks {
+  color: black;
+  text-decoration: none;
+}
+
 
 /* ************** FOOTER ************** */
 footer {

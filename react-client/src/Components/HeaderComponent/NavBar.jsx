@@ -14,16 +14,16 @@ class NavBar extends Component {
           </span>
           <ul id="headerButtons">
             <li className="navButton">
-              <Link to="/contact">Contact</Link>
+              <Link to="/contact" className="buttonLinks">Contact</Link>
             </li>
             <li className="navButton">
-              <Link to="/about-us">About Us</Link>
+              <Link to="/about-us" className="buttonLinks">About Us</Link>
             </li>
             <li className="navButton">
-              <Link to="/resources">Resources</Link>
+              <Link to="/resources" className="buttonLinks">Resources</Link>
             </li>
             <li className="navButton">
-              <Link to="/events">Events</Link>
+              <Link to="/events" className="buttonLinks">Events</Link>
             </li>
           </ul>
       </div>
