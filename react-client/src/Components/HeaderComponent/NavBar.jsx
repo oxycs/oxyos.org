@@ -5,36 +5,27 @@ import logo from '../../Assets/oxyosLogo.jpg';
 class NavBar extends Component {
   render() {
     return (
-
       // TODO: Change other links to link to other pages
       <div className="header">
-
-        <div>
-          <img id="logoImage" src={logo}></img>
-        </div>
-
-        <div>
+          <span id="logoLink">
+          <Link to="/">
+            <img id="logoImage" src={logo}></img>
+          </Link>
+          </span>
           <ul id="headerButtons">
-
             <li className="navButton">
-              <Link to="">Home</Link>
+              <Link to="/contact" className="buttonLinks">Contact</Link>
             </li>
-
             <li className="navButton">
-              <Link to="">About</Link>
+              <Link to="/about-us" className="buttonLinks">About Us</Link>
             </li>
-
             <li className="navButton">
-              <Link to="">Contact</Link>
+              <Link to="/resources" className="buttonLinks">Resources</Link>
             </li>
-
             <li className="navButton">
-              <Link to="">Join</Link>
+              <Link to="/events" className="buttonLinks">Events</Link>
             </li>
-
           </ul>
-        </div>
-
       </div>
     )
   }
