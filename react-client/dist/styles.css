@@ -16,12 +16,17 @@ body {
 
 /* ************** HOME PAGE ************** */
 .home{
-    background-image: url('../../src/Assets/2018-0608_JacarandaTrees-07.jpg');
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+
+#backgroundImg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #homeBody{
@@ -33,6 +38,7 @@ body {
   font-size: 18px;
   background: rgba(255, 255, 255, 0.5);
   padding: 2em;
+  margin-right: 10px;
 }
 
 #homeTitle{
