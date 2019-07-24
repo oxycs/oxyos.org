@@ -24,9 +24,15 @@ body {
 }
 
 #backgroundImg {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+   position: fixed;
+   top: 0;
+   left: 0;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+   /* Preserve aspet ratio */
+   min-width: 100%;
+   min-height: 100%;
 }
 
 #homeBody{
