@@ -1,0 +1,61 @@
+/* ************** HOME PAGE ************** */
+.home{
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#backgroundImg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#homeBody{
+  padding: 3em 5em 3em 5em;
+}
+
+#homeText{
+  text-align: justify;
+  font-size: 18px;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 2em;
+  margin-right: 10px;
+}
+
+#homeTitle{
+  float: right;
+  text-transform: uppercase;
+  font-weight: bold;
+  max-width: 40%;
+}
+
+#homeTitle h1{
+  margin: 0;
+  font-size: 100px;
+/*  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;*/
+}
+
+#homeTitle h1 span{
+  color: #f26739;
+}
+
+@media screen and (max-width: 768px) {
+    #app{
+      padding-bottom: 0;
+      height: initial;
+    }
+    #homeBody{
+      padding: 1em;
+    }
+    #homeTitle{
+      float: none;
+    }
+    #homeText{
+      padding: 1em;
+      max-width: 90%;
+    }
+}

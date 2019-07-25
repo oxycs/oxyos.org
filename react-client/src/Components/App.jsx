@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import { browserHistory } from 'react-router';
-import HomePage from './HomePage';
-import EventsPage from './EventsPage';
-import ResourcesPage from './ResourcesPage';
-import AboutUsPage from './AboutUsPage';
-import ContactPage from './ContactPage';
+import HomePage from './HomeComponent/HomePage';
+import EventsPage from './EventsComponent/EventsPage';
+import ResourcesPage from './ResourcesComponent/ResourcesPage';
+import AboutUsPage from './AboutComponent/AboutUsPage';
+import ContactPage from './ContactComponent/ContactPage';
 import NavBar from './HeaderComponent/NavBar';
 import Footer from './FooterComponent/Footer';
+import '../../dist/styles.css';
 
 
 // component will be changed depending on which navBar button is clicked?

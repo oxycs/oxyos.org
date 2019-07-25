@@ -1,0 +1,83 @@
+/* ************** FOOTER ************** */
+footer {
+  display: block;
+  height: auto;
+  background-color: #2d2e2e;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  padding: 1em;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-height: 120px;
+}
+
+footer a{
+  color: white;
+}
+
+#social{
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 1em;
+  text-align: left;
+  float: left;
+  font-family: Obvia;
+}
+
+#social h1{
+    font-weight: normal;
+    margin: 0;
+}
+
+#social h1 span{
+    color: #f26739;
+}
+
+#social h3{
+    font-weight: lighter;
+    text-transform: uppercase;
+    opacity: 0.6;
+    margin-top: 0.25em;
+}
+
+#social a{
+  padding: 0 1em 0 0;
+  opacity: 0.3;
+}
+
+#social a:hover{
+  opacity: 1;
+  border: none;
+}
+
+#social img{
+  height: 2em;
+  width: 2em;
+}
+
+#contact {
+  float: right;
+  text-align: right;
+  line-height: 0.5em;
+  font-weight: bold;
+  padding-right: 1em;
+  padding-top: 0;
+  font-size: 16px;
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+}
+
+@media screen and (max-width: 768px) {
+    footer{
+      font-size: 12px;
+      position: relative;
+    }
+    #contact{
+      font-size: 12px;
+      padding-top: 0.5em;
+    }
+}

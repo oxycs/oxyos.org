@@ -1,0 +1,67 @@
+/* ************** HEADER ************** */
+.header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-grow: 1;
+
+  overflow: hidden;
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  background: linear-gradient(grey, 40%, rgba(255,255,255, 0));
+  padding-bottom: 1em;
+}
+
+.logo {
+  display: flex;
+  flex: 1 1 50%;
+  flex-grow: 1;
+  width: 50%;
+  height: 100px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+#logoImage {
+  padding: 1.5em;
+  padding-left: 2.5em;
+  height: 4em;
+  width: 4em;
+}
+
+#logoLink a:hover{
+  border: none;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: nowrap;
+  flex: 1 1 50%;
+  flex-grow: 1;
+  width: 50%;
+  height: 100px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.headerButtons {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+  padding-top: 1em;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.navButton {
+  display: flex;
+  width: 25%;
+  font-size: 18px;
+}
+
+.buttonLinks {
+  color: black;
+  text-decoration: none;
+}
