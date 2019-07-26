@@ -25,11 +25,17 @@ Run each of these commands in **separate** terminal windows:
 
 Then visit `http://localhost:8080/` in your browser. Hopefully this worked! If not, Google and other project members are your friends.
 
+#### Common Errors
+Setting up a React app can be tricky. Here are some errors that we've encountered and how to fix them:
+
+"Nodemon is not recognized as an internal or external command, operable program or batch file."
+Solution: run `npm install --save nodemon` in your terminal.
+
+"Module not found: Error: Can't resolve 'url-loader'"
+Solution: run `npm install url-loader --save-dev` in your terminal.
 
 
 Adapted from [this Medium post](https://medium.com/@Preda/getting-started-on-building-a-personal-website-with-react-b44ee93b1710)
-
-
 
 ## Git workflow
 #### Setup
