@@ -7,34 +7,56 @@
     background-attachment: fixed;
 }
 
+.column {
+  float: left;
+}
+
+.left {
+  width: 25%
+}
+
+.right {
+  width: 60%
+}
+
 #backgroundImg {
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+  min-height: 100%;
+  min-width:1024;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 1;
+  left: 0;
 }
 
 #homeBody{
-  padding: 3em 5em 3em 5em;
+  padding: 3em 3em 3em 3em;
 }
 
 #homeText{
   text-align: justify;
-  font-size: 18px;
-  background: rgba(255, 255, 255, 0.5);
+  font-size: 24px;
+  background: rgba(255, 255, 255, 0.7);
   padding: 2em;
-  margin-right: 10px;
+  margin-left: 5em;
 }
 
 #homeTitle{
-  float: right;
+  float: left;
   text-transform: uppercase;
   font-weight: bold;
-  max-width: 40%;
+  max-width: 30%;
 }
 
 #homeTitle h1{
   margin: 0;
   font-size: 100px;
+  background: rgba(255, 255, 255, 0.7);
+  padding-left: .6em;
 /*  -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white;*/
 }

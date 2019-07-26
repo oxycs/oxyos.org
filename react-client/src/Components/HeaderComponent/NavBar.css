@@ -11,7 +11,6 @@
   font-style: normal;
   font-weight: 100;
   background: linear-gradient(grey, 40%, rgba(255,255,255, 0));
-  padding-bottom: 1em;
 }
 
 .logo {
@@ -27,6 +26,7 @@
 #logoImage {
   padding: 1.5em;
   padding-left: 2.5em;
+  padding-bottom: .5em;
   height: 4em;
   width: 4em;
 }
@@ -44,13 +44,14 @@
   height: 100px;
   overflow: hidden;
   box-sizing: border-box;
+  justify-content: space-evenly;
 }
 
 .headerButtons {
   display: flex;
   flex-wrap: nowrap;
   flex-grow: 1;
-  padding-top: 1em;
+  padding-top: 1.25em;
   text-transform: uppercase;
   opacity: 1;
 }
@@ -58,7 +59,8 @@
 .navButton {
   display: flex;
   width: 25%;
-  font-size: 18px;
+  font-size: 22px;
+  padding-top: 1em;
 }
 
 .buttonLinks {
