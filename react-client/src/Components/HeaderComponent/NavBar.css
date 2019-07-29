@@ -5,6 +5,7 @@
   flex-wrap: wrap;
   justify-content: center;
   flex-grow: 1;
+  flex: 1;
 
   overflow: hidden;
   font-family: proxima-nova, sans-serif;

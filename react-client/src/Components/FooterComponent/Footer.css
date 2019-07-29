@@ -1,30 +1,41 @@
 /* ************** FOOTER ************** */
-footer {
-  display: block;
+.footer {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-grow: 1;
+  align-items: flex-start;
   height: auto;
   background-color: #2d2e2e;
   color: white;
   text-align: center;
-  overflow: hidden;
-  padding: 1em;
+  overflow: auto;
   position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
-  max-height: 120px;
+  max-height: auto;
+  min-height: auto;
+  box-sizing: border-box;
 }
 
-footer a{
+#socialLinks a{
   color: white;
 }
 
 #social{
-  padding-left: 2em;
-  padding-right: 2em;
-  padding-top: 1em;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: auto;
+  padding: 1em;
   text-align: left;
   float: left;
   font-family: Obvia;
+  box-sizing: border-box;
+  overflow: auto;
 }
 
 #social h1{
@@ -43,7 +54,8 @@ footer a{
     margin-top: 0.25em;
 }
 
-#social a{
+#socialLinks a{
+  flex-direction: row;
   padding: 0 1em 0 0;
   opacity: 0.3;
 }
@@ -59,6 +71,10 @@ footer a{
 }
 
 #contact {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  height: auto;
   float: right;
   text-align: right;
   line-height: 0.5em;
@@ -69,6 +85,12 @@ footer a{
   font-family: proxima-nova, sans-serif;
   font-style: normal;
   font-weight: 100;
+}
+
+.contactText a {
+  box-sizing: border-box;
+  text-decoration: none;
+  color: white;
 }
 
 @media screen and (max-width: 768px) {

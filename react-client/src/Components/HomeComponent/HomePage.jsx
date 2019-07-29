@@ -11,20 +11,21 @@ var sectionStyle = {
 class HomePage extends Component {
   render() {
     return (
-      <div class="main-container">
-        <section id="backgroundImg" style={ sectionStyle}>
-    	    <div id="homeBody" className="row">
-    	    	<div id="homeTitle" class="column left">
-  		        <h1>Oxy</h1>
-  		        <h1><span>Open</span></h1>
-  		        <h1>Source</h1>
-  	        </div>
-  	        <div id="homeText" class="column right">
-  		        <p>Our mission is to create an inclusive and collaborative community around Computer Science and provide
-              resources and opportunities for all Oxy students</p>
-  			    </div>
+      <div className="main-container">
+        <div className="inner-container" style={ sectionStyle }>
+
+  	    	<div className="homeTitle">
+		        <h1>Oxy</h1>
+		        <h1><span>Open</span></h1>
+		        <h1>Source</h1>
 	        </div>
-        </section>
+
+	        <div className="homeText">
+		        <p>Our mission is to create an inclusive and collaborative community around Computer Science and provide
+            resources and opportunities for all Oxy students</p>
+			    </div>
+
+        </div>
       </div>
     )
   }
