@@ -27,29 +27,40 @@
 }
 
 #mission {
-  background: rgba(0, 0, 0, 0)
-  radial-gradient(at left top, rgb(228, 115, 45) 0%,
-  rgb(228, 45, 66) 100%) repeat scroll 0% 0%;
   margin-bottom: 0px;
   width: 100%;
   /*min-height: 16rem;*/
   max-width: 100%;
   position: relative;
   border-radius: 8px;
-  box-shadow: rgba(0, 0, 0, 0.063) 0px 8px 32px;
   box-sizing: border-box;
 }
 
-#about-info {
+.whomst {
+  display: flex;
+  flex-direction: row;
+  flex: 1 0 21%;
+}
+
+.photo-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex: 1 0 21%;
+}
+
+.about-info {
   width: 8%;
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   vertical-align: top;
   margin: 0 20px 20px 0;
 }
 
-#about-info img {
+.headshot {
   border-radius: 50%;
   margin: 0 auto;
-  width: 10px;
-  height: 10px;
+  width: 100px;
+  height: 100px;
 }
