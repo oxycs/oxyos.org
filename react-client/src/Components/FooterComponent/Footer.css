@@ -20,8 +20,8 @@
   box-sizing: border-box;
 }
 
-#socialLinks a{
-  color: white;
+#socialLinks img{
+  border-radius: 50%;
 }
 
 #social{
