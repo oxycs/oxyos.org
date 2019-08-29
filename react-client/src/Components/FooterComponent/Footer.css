@@ -1,0 +1,104 @@
+/* ************** FOOTER ************** */
+.footer {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-grow: 1;
+  align-items: flex-start;
+  height: auto;
+  background-color: #2d2e2e;
+  color: white;
+  text-align: center;
+  overflow: auto;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-height: auto;
+  min-height: auto;
+  box-sizing: border-box;
+}
+
+#socialLinks img{
+  border-radius: 50%;
+}
+
+#social{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: auto;
+  padding: 1em;
+  text-align: left;
+  float: left;
+  font-family: Obvia;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+#social h1{
+    font-weight: normal;
+    margin: 0;
+}
+
+#social h1 span{
+    color: #f26739;
+}
+
+#social h3{
+    font-weight: lighter;
+    text-transform: uppercase;
+    opacity: 0.6;
+    margin-top: 0.25em;
+}
+
+#socialLinks a{
+  flex-direction: row;
+  padding: 0 1em 0 0;
+  opacity: 0.3;
+}
+
+#social a:hover{
+  opacity: 1;
+  border: none;
+}
+
+#social img{
+  height: 2em;
+  width: 2em;
+}
+
+#contact {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  height: auto;
+  float: right;
+  text-align: right;
+  line-height: 0.5em;
+  font-weight: bold;
+  padding-right: 1em;
+  padding-top: 0;
+  font-size: 16px;
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+}
+
+.contactText a {
+  box-sizing: border-box;
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+    footer{
+      font-size: 12px;
+      position: relative;
+    }
+    #contact{
+      font-size: 12px;
+      padding-top: 0.5em;
+    }
+}

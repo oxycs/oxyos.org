@@ -1,0 +1,87 @@
+/* ************** HOME PAGE ************** */
+/*
+.home {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+*/
+
+.inner-container {
+  padding: 3em 3em 3em 3em;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  flex-grow: 1;
+
+  box-sizing: border-box;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100%;
+  min-width: 1024;
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: auto;
+  top: 1;
+  left: 0;
+}
+
+.homeTitle{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  float: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  max-width: 30%;
+  box-sizing: border-box;
+  padding: .3em .3em .3em .3em;
+}
+
+.homeTitle h1{
+  display: flex;
+  margin: 0;
+  font-size: 100px;
+  background: rgba(255, 255, 255, 0.7);
+/*  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;*/
+}
+
+.homeTitle h1 span{
+  color: #f26739;
+}
+
+.homeText{
+  display: flex;
+  text-align: justify;
+  font-size: 24px;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 2em;
+  margin-left: 5em;
+}
+
+
+@media screen and (max-width: 768px) {
+    #app{
+      padding-bottom: 0;
+      height: initial;
+    }
+    #homeBody{
+      padding: 1em;
+    }
+    #homeTitle{
+      float: none;
+    }
+    #homeText{
+      padding: 1em;
+      max-width: 90%;
+    }
+}

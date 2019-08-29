@@ -1,0 +1,32 @@
+/* ************** RESOURCES ************** */
+#campus-resources, #summer-opportunities {
+  text-align: center;
+}
+
+#container-resources {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  /*display: grid;
+  grid-template-columns: repeat(2, 1fr); */
+  gap: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#open-source-resources, #academic-support {
+  flex-grow: 2;
+  /*background: rgba(0, 0, 0, 0)
+  radial-gradient(at left top, rgb(228, 115, 45) 0%,
+  rgb(228, 45, 66) 100%) repeat scroll 0% 0%; */
+  /*background: white; */
+  margin-bottom: 20px;
+  width: 50%;
+  min-height: 16rem;
+  max-width: 50%;
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  /*box-shadow: rgba(0, 0, 0, 0.063) 0px 8px 32px; */
+  box-sizing: border-box;
+}
