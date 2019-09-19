@@ -427,3 +427,7 @@ body {
   font-size: 24px;
   margin: 10%;
 }
+
+.hidden {
+  display: none;
+}
