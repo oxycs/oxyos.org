@@ -1,10 +1,19 @@
 let pages = document.getElementsByClassName('page');
 Array.prototype.forEach.call(document.getElementsByClassName('sectionLink'), link => {
-  let target = document.getElementById(`${link.getAttribute('href').slice(1)}-page`);
   link.addEventListener('click', e => {
-    Array.prototype.forEach.call(pages, page => {
-      page.classList.add('hidden');
-    });
-    target.classList.remove('hidden');
+    showPage(`${link.getAttribute('href').slice(1)}-page`);
   });
 });
+
+function showPage(page) {
+  let target = document.getElementById(page);
+  console.log(target);
+  Array.prototype.forEach.call(pages, page => {
+    page.classList.add('hidden');
+  });
+  target.classList.remove('hidden');
+  window.scrollTo(0,0);
+}
+
+let index = document.URL.lastIndexOf('#');
+if (index!=-1) showPage(`${document.URL.slice(index+1)}-page`);
